@@ -1,5 +1,7 @@
-pipeline {
-    agent any
+#!groovy
+import groovy.time.*
+   
+agent any
     options{
     timestamps()
     }
@@ -25,4 +27,4 @@ pipeline {
             }
         }
     }
-}
+
