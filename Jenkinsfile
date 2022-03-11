@@ -1,4 +1,4 @@
- 
+ #!/usr/bin/env groovy
 agent any
     options{
     timestamps()
