@@ -3,12 +3,7 @@
 import groovy.time.*
 
     node{
-    
-
-    options{
-    timestamps()
-    }
-    stages {
+     stages {
         stage('Hello') {
             steps {
                 echo 'Hello World'
