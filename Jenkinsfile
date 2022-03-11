@@ -1,7 +1,9 @@
 #!groovy
 import groovy.time.*
 
-agent any
+    node{
+    
+
     options{
     timestamps()
     }
@@ -27,4 +29,5 @@ agent any
             }
         }
     }
+ }
 
