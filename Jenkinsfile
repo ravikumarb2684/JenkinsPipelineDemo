@@ -1,6 +1,4 @@
-#!groovy
-import groovy.time.*
-   
+ 
 agent any
     options{
     timestamps()
