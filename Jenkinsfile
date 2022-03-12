@@ -3,25 +3,16 @@
     node{
      
         stage('Hello') {
-            steps {
-                echo 'Hello World'
-            }
+              echo 'Hello World'           
         }
         stage('Build') {
-            steps {
-                echo 'Building'
+               echo 'Building'
             }
-        }
         stage('Deploy') {
-            steps {
-                echo 'Deploying'
-            }
+              echo 'Deploying'           
         }
         stage('Testing') {
-            steps {
-                echo 'Testing'
-            }
-        }
-    
+                echo 'Testing'            
+        }    
  }
 
